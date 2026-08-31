@@ -18,6 +18,14 @@
         code { background: #21262d; padding: 2px 6px; border-radius: 4px; font-family: monospace; }
         .grid { display: grid; grid-template-columns: 1fr; gap: 1rem; }
         @media(min-width: 768px) { .grid { grid-template-columns: 1fr 1fr; } }
+        
+        /* Teaser Table Styles */
+        details { background: #0d1117; padding: 1rem; border: 1px solid var(--border); border-radius: 6px; margin-top: 1rem; font-size: 0.85rem; }
+        summary { cursor: pointer; font-weight: bold; color: var(--accent); margin-bottom: 0.5rem; }
+        .hash { font-size: 0.7rem; word-break: break-all; color: #8b949e; margin-bottom: 1rem; background: #21262d; padding: 4px; border-radius: 4px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 0.5rem; margin-bottom: 1rem; }
+        th, td { border: 1px solid var(--border); padding: 0.4rem; text-align: left; }
+        th { background: #21262d; color: var(--accent); }
     </style>
 </head>
 <body>
@@ -40,6 +48,19 @@
             <div class="meta">22,590 Verified Records</div>
             <p class="price">$1,490.00 USD</p>
             <p>Direct contact routing across Intel, AMD, NVIDIA, ARM, Qualcomm, and IBM Mainframes with governance authority tiers.</p>
+            <details>
+                <summary>View Provenance & Schema Teaser</summary>
+                <div class="hash">SHA-256: 5b4fd647d299940d7cbb8d64d34e53c324f317ba2cb88c89eec07a739e575cb2</div>
+                <table>
+                    <tr><th>Organization</th><th>Engineers</th><th>Gatekeepers</th></tr>
+                    <tr><td>Red Hat / IBM</td><td>494</td><td>134</td></tr>
+                    <tr><td>Intel Corporation</td><td>463</td><td>81</td></tr>
+                    <tr><td>Advanced Micro Devices</td><td>260</td><td>69</td></tr>
+                    <tr><td>Google / Alphabet</td><td>260</td><td>69</td></tr>
+                    <tr><td>Broadcom Inc.</td><td>202</td><td>30</td></tr>
+                    <tr><td>NVIDIA Corporation</td><td>186</td><td>41</td></tr>
+                </table>
+            </details>
             <a class="btn" href="https://zapexcoresystems.gumroad.com/l/sku1-silicon-architects">Acquire SKU 1</a>
         </div>
 
@@ -48,6 +69,17 @@
             <div class="meta">4,062 Audited Subsystems</div>
             <p class="price">$1,390.00 USD</p>
             <p>0–100 Criticality Scores isolating 2,546 single-maintainer dependencies and abandoned modules for M&A due diligence.</p>
+            <details>
+                <summary>View Provenance & Schema Teaser</summary>
+                <div class="hash">SHA-256: 552baa6e1a5dab47e8656bae11a6fb1b54bb52b22afeb4a2971092d5b3bce540</div>
+                <table>
+                    <tr><th>Risk Classification</th><th>Score</th><th>Subsystems At Risk</th></tr>
+                    <tr><td>CRITICAL_RISK_ABANDONED</td><td>98/100</td><td>7</td></tr>
+                    <tr><td>HIGH_RISK_SPOF</td><td>85/100</td><td>2546</td></tr>
+                    <tr><td>MEDIUM_RISK_LOW_REDUNDANCY</td><td>50/100</td><td>954</td></tr>
+                    <tr><td>STABLE_ENTERPRISE_MAINTAINED</td><td>15/100</td><td>555</td></tr>
+                </table>
+            </details>
             <a class="btn" href="https://zapexcoresystems.gumroad.com/l/sku2-spof-supply-chain">Acquire SKU 2</a>
         </div>
 
@@ -56,6 +88,17 @@
             <div class="meta">79,930 Topology Nodes</div>
             <p class="price">$1,490.00 USD</p>
             <p>Ground-truth code symbol graph for LLM code-generation models, static analysis engines, and binary reverse engineering.</p>
+            <details>
+                <summary>View Provenance & Schema Teaser</summary>
+                <div class="hash">SHA-256: 58ac10d949729071ea835fe9e13d0ad8bb5d22b8294e3758049095cbd59a82fc</div>
+                <table>
+                    <tr><th>Semantic Node Type</th><th>Count</th><th>Role</th></tr>
+                    <tr><td>AST_DESCRIPTOR</td><td>49442</td><td>Static Symbol Descriptor</td></tr>
+                    <tr><td>TOPOLOGY_NODE</td><td>18075</td><td>Architectural Module Path</td></tr>
+                    <tr><td>FUNCTION_POINTER</td><td>11733</td><td>High Priority Execution Node</td></tr>
+                    <tr><td>HEADER_STRUCT</td><td>680</td><td>Core Data Structure Alignment</td></tr>
+                </table>
+            </details>
             <a class="btn" href="https://zapexcoresystems.gumroad.com/l/sku3-ast-symbol-graph">Acquire SKU 3</a>
         </div>
 
@@ -64,6 +107,17 @@
             <div class="meta">8,930 Mapped Endpoints</div>
             <p class="price">$1,290.00 USD</p>
             <p>Corporate Git origins and enterprise infrastructure nodes mapped with transport security classifications.</p>
+            <details>
+                <summary>View Provenance & Schema Teaser</summary>
+                <div class="hash">SHA-256: ac96eb3f46a0a2cc968af4cbfb16630789a36723246b835d5174795b24437fe3</div>
+                <table>
+                    <tr><th>Classification</th><th>Endpoints</th><th>Protocol</th></tr>
+                    <tr><td>OPEN_SOURCE_FOUNDATION</td><td>5906</td><td>STANDARD_HTTP_PLAINTEXT</td></tr>
+                    <tr><td>COMMERCIAL_ENTERPRISE</td><td>2813</td><td>STANDARD_HTTP_PLAINTEXT</td></tr>
+                    <tr><td>CODE_REPOSITORY</td><td>145</td><td>STANDARD_HTTP_PLAINTEXT</td></tr>
+                    <tr><td>ACADEMIC_RESEARCH_NODE</td><td>66</td><td>STANDARD_HTTP_PLAINTEXT</td></tr>
+                </table>
+            </details>
             <a class="btn" href="https://zapexcoresystems.gumroad.com/l/sku4-enterprise-attack-surface">Acquire SKU 4</a>
         </div>
     </div>
